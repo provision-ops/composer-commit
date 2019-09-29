@@ -1,0 +1,16 @@
+{
+    "name": "provision-ops/composer-commit",
+    "description": "Commit changes to composer files automatically.",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jon Pugh",
+            "email": "jon@thinkdrop.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "composer-plugin-api": "^1.1"
+    }
+}
