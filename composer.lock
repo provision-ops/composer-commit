@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a69f66136a69563293e3c02a8c6bd07a",
+    "content-hash": "7bca6ca71a210b27efdf4cc72faf38f2",
     "packages": [
         {
             "name": "consolidation/annotated-command",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/annotated-command.git",
-                "reference": "09c7603fca7b5a6d951ebf3056b426542aab3742"
+                "reference": "4c088b50e0a4829bde5a39fd9bb779dfad9b4564"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/09c7603fca7b5a6d951ebf3056b426542aab3742",
-                "reference": "09c7603fca7b5a6d951ebf3056b426542aab3742",
+                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/4c088b50e0a4829bde5a39fd9bb779dfad9b4564",
+                "reference": "4c088b50e0a4829bde5a39fd9bb779dfad9b4564",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
                 }
             ],
             "description": "Initialize Symfony Console commands from annotated command class methods.",
-            "time": "2019-09-13T02:50:13+00:00"
+            "time": "2019-10-24T23:45:51+00:00"
         },
         {
             "name": "consolidation/config",
@@ -279,12 +279,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/output-formatters.git",
-                "reference": "99ec998ffb697e0eada5aacf81feebfb13023605"
+                "reference": "cad3cf266c7b211857bca8b88d577460572b27f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/99ec998ffb697e0eada5aacf81feebfb13023605",
-                "reference": "99ec998ffb697e0eada5aacf81feebfb13023605",
+                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/cad3cf266c7b211857bca8b88d577460572b27f8",
+                "reference": "cad3cf266c7b211857bca8b88d577460572b27f8",
                 "shasum": ""
             },
             "require": {
@@ -372,7 +372,7 @@
                 }
             ],
             "description": "Format text by applying transformations provided by plug-in formatters.",
-            "time": "2019-05-30T23:16:01+00:00"
+            "time": "2019-10-25T00:17:02+00:00"
         },
         {
             "name": "consolidation/robo",
@@ -380,45 +380,45 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/Robo.git",
-                "reference": "cf65879a969119251ccf193d5bab480df2995895"
+                "reference": "085c2406444e582a3f3c1fab5c26bc4b39e04cef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/Robo/zipball/cf65879a969119251ccf193d5bab480df2995895",
-                "reference": "cf65879a969119251ccf193d5bab480df2995895",
+                "url": "https://api.github.com/repos/consolidation/Robo/zipball/085c2406444e582a3f3c1fab5c26bc4b39e04cef",
+                "reference": "085c2406444e582a3f3c1fab5c26bc4b39e04cef",
                 "shasum": ""
             },
             "require": {
-                "consolidation/annotated-command": "^2.11.0",
-                "consolidation/config": "^1.2",
+                "consolidation/annotated-command": "^2.12",
+                "consolidation/config": "^1.2.1",
                 "consolidation/log": "^1.1.1",
-                "consolidation/output-formatters": "^3.1.13",
+                "consolidation/output-formatters": "^3.5",
                 "consolidation/self-update": "^1",
-                "grasmash/yaml-expander": "^1.3",
+                "grasmash/yaml-expander": "^1.4",
                 "league/container": "^2.2",
-                "php": ">=7",
-                "symfony/console": "^3.4|^4",
-                "symfony/event-dispatcher": "^3.4|^4",
-                "symfony/filesystem": "^3|^4",
-                "symfony/finder": "^3|^4",
-                "symfony/process": "^3|^4"
+                "php": ">=7.1.3",
+                "symfony/console": "^4.3.5",
+                "symfony/event-dispatcher": "^4",
+                "symfony/filesystem": "^4",
+                "symfony/finder": "^4",
+                "symfony/process": "^4"
             },
             "conflict": {
                 "codegyre/robo": "*"
             },
             "require-dev": {
-                "codeception/aspect-mock": "^1|^2.1.1",
-                "codeception/base": "^2.3.7",
-                "codeception/verify": "^0.3.2",
+                "codeception/aspect-mock": "^3.0.2",
+                "codeception/base": "^3.1.2",
+                "codeception/phpunit-wrapper": "^7.7.1",
+                "codeception/stub": "^3",
+                "doctrine/annotations": "^1.8.0",
                 "g1a/composer-test-scenarios": "^3",
-                "goaop/framework": "~2.1.2",
-                "goaop/parser-reflection": "^1.1.0",
                 "natxet/cssmin": "3.0.4",
                 "nikic/php-parser": "^3.1.5",
                 "patchwork/jsqueeze": "^2",
                 "pear/archive_tar": "^1.4.4",
                 "php-coveralls/php-coveralls": "^1",
-                "phpunit/php-code-coverage": "~2|~4",
+                "phpdocumentor/reflection-docblock": "^4.3.2",
                 "squizlabs/php_codesniffer": "^2.8"
             },
             "suggest": {
@@ -432,18 +432,6 @@
             ],
             "type": "library",
             "extra": {
-                "scenarios": {
-                    "symfony3": {
-                        "require": {
-                            "symfony/console": "^3"
-                        },
-                        "config": {
-                            "platform": {
-                                "php": "7.0.11"
-                            }
-                        }
-                    }
-                },
                 "branch-alias": {
                     "dev-master": "2.x-dev"
                 }
@@ -464,7 +452,7 @@
                 }
             ],
             "description": "Modern task runner",
-            "time": "2019-09-13T20:58:15+00:00"
+            "time": "2019-10-28T05:21:28+00:00"
         },
         {
             "name": "consolidation/self-update",
@@ -773,12 +761,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
-                "reference": "014d250daebff39eba15ba990eeb2a140798e77c"
+                "reference": "fc1bc363ecf887921e3897c7b1dad3587ae154eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/014d250daebff39eba15ba990eeb2a140798e77c",
-                "reference": "014d250daebff39eba15ba990eeb2a140798e77c",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/fc1bc363ecf887921e3897c7b1dad3587ae154eb",
+                "reference": "fc1bc363ecf887921e3897c7b1dad3587ae154eb",
                 "shasum": ""
             },
             "require": {
@@ -814,7 +802,7 @@
                 "container-interop",
                 "psr"
             ],
-            "time": "2018-12-29T15:36:03+00:00"
+            "time": "2019-10-04T14:07:35+00:00"
         },
         {
             "name": "psr/log",
@@ -822,12 +810,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "c4421fcac1edd5a324fda73e589a5cf96e52ffd0"
+                "reference": "bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/c4421fcac1edd5a324fda73e589a5cf96e52ffd0",
-                "reference": "c4421fcac1edd5a324fda73e589a5cf96e52ffd0",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2",
+                "reference": "bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2",
                 "shasum": ""
             },
             "require": {
@@ -861,7 +849,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2018-11-21T13:42:00+00:00"
+            "time": "2019-10-25T08:06:51+00:00"
         },
         {
             "name": "symfony/console",
@@ -869,12 +857,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "b32d395fa5db1d3cb08345acbb1df8109f1c9022"
+                "reference": "3dc050a9adab0081c8cd76c1b3274ed6d7b21a03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/b32d395fa5db1d3cb08345acbb1df8109f1c9022",
-                "reference": "b32d395fa5db1d3cb08345acbb1df8109f1c9022",
+                "url": "https://api.github.com/repos/symfony/console/zipball/3dc050a9adab0081c8cd76c1b3274ed6d7b21a03",
+                "reference": "3dc050a9adab0081c8cd76c1b3274ed6d7b21a03",
                 "shasum": ""
             },
             "require": {
@@ -937,7 +925,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-09-28T15:00:54+00:00"
+            "time": "2019-10-12T00:35:04+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -945,12 +933,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "5bf6437b9c07ac6cd89f6ff08ca4a45b8c3afbe4"
+                "reference": "88cdd1ab53c58fd0ce79ee3d3b54da2d06ce8bb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/5bf6437b9c07ac6cd89f6ff08ca4a45b8c3afbe4",
-                "reference": "5bf6437b9c07ac6cd89f6ff08ca4a45b8c3afbe4",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/88cdd1ab53c58fd0ce79ee3d3b54da2d06ce8bb7",
+                "reference": "88cdd1ab53c58fd0ce79ee3d3b54da2d06ce8bb7",
                 "shasum": ""
             },
             "require": {
@@ -1007,7 +995,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2019-09-16T08:12:51+00:00"
+            "time": "2019-10-22T15:44:54+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -1073,12 +1061,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "f903e39aca6b4a4a2dbc473a1287b79b6c41cfb8"
+                "reference": "25dbb9eaa9f0e7abf521bade3b09b14080318ecf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/f903e39aca6b4a4a2dbc473a1287b79b6c41cfb8",
-                "reference": "f903e39aca6b4a4a2dbc473a1287b79b6c41cfb8",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/25dbb9eaa9f0e7abf521bade3b09b14080318ecf",
+                "reference": "25dbb9eaa9f0e7abf521bade3b09b14080318ecf",
                 "shasum": ""
             },
             "require": {
@@ -1115,7 +1103,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2019-09-16T08:12:51+00:00"
+            "time": "2019-10-12T00:35:04+00:00"
         },
         {
             "name": "symfony/finder",
@@ -1123,12 +1111,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "30898bbac041d71f18862366a7a0987dd5cff7dd"
+                "reference": "24ef52b460db68c97fe4f3a9bfc6c3e4d62f1b34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/30898bbac041d71f18862366a7a0987dd5cff7dd",
-                "reference": "30898bbac041d71f18862366a7a0987dd5cff7dd",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/24ef52b460db68c97fe4f3a9bfc6c3e4d62f1b34",
+                "reference": "24ef52b460db68c97fe4f3a9bfc6c3e4d62f1b34",
                 "shasum": ""
             },
             "require": {
@@ -1164,7 +1152,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-09-17T11:12:18+00:00"
+            "time": "2019-10-12T00:35:04+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1347,12 +1335,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "8c4a035562fb698f8d61b5dc4ea3a2c416a0f15e"
+                "reference": "08e15d5fba403a550797f422c16de3d80b15a589"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/8c4a035562fb698f8d61b5dc4ea3a2c416a0f15e",
-                "reference": "8c4a035562fb698f8d61b5dc4ea3a2c416a0f15e",
+                "url": "https://api.github.com/repos/symfony/process/zipball/08e15d5fba403a550797f422c16de3d80b15a589",
+                "reference": "08e15d5fba403a550797f422c16de3d80b15a589",
                 "shasum": ""
             },
             "require": {
@@ -1388,7 +1376,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2019-09-26T22:09:58+00:00"
+            "time": "2019-10-12T00:35:04+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -1454,12 +1442,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "110e3e9eaa7827def84cb1cfee95a6cfde4bf608"
+                "reference": "13bfb7f2460a3f34d7e3c054fef646ba67c2e351"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/110e3e9eaa7827def84cb1cfee95a6cfde4bf608",
-                "reference": "110e3e9eaa7827def84cb1cfee95a6cfde4bf608",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/13bfb7f2460a3f34d7e3c054fef646ba67c2e351",
+                "reference": "13bfb7f2460a3f34d7e3c054fef646ba67c2e351",
                 "shasum": ""
             },
             "require": {
@@ -1505,7 +1493,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2019-09-25T18:53:23+00:00"
+            "time": "2019-10-22T15:44:54+00:00"
         }
     ],
     "packages-dev": [
@@ -1567,16 +1555,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "dev-master",
+            "version": "1.9.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "34a32c31b4cc46cb4505af87d19957d2f6cab49b"
+                "reference": "8cbc595790c1f8713efbdfb3825a34b3db1a12f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/34a32c31b4cc46cb4505af87d19957d2f6cab49b",
-                "reference": "34a32c31b4cc46cb4505af87d19957d2f6cab49b",
+                "url": "https://api.github.com/repos/composer/composer/zipball/8cbc595790c1f8713efbdfb3825a34b3db1a12f9",
+                "reference": "8cbc595790c1f8713efbdfb3825a34b3db1a12f9",
                 "shasum": ""
             },
             "require": {
@@ -1643,7 +1631,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2019-09-28T09:26:11+00:00"
+            "time": "2019-10-25T12:10:53+00:00"
         },
         {
             "name": "composer/semver",
@@ -1971,63 +1959,36 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.9.x-dev",
+            "version": "3.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "4665f6411253f737658f9aae12e6cafd3ca26b13"
+                "reference": "65b12cdeaaa6cd276d4c3033a95b9b88b12701e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/4665f6411253f737658f9aae12e6cafd3ca26b13",
-                "reference": "4665f6411253f737658f9aae12e6cafd3ca26b13",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/65b12cdeaaa6cd276d4c3033a95b9b88b12701e7",
+                "reference": "65b12cdeaaa6cd276d4c3033a95b9b88b12701e7",
                 "shasum": ""
             },
             "require": {
                 "ext-simplexml": "*",
                 "ext-tokenizer": "*",
                 "ext-xmlwriter": "*",
-                "php": ">=5.1.2"
+                "php": ">=5.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
             },
             "bin": [
-                "scripts/phpcs",
-                "scripts/phpcbf"
+                "bin/phpcs",
+                "bin/phpcbf"
             ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "3.x-dev"
                 }
-            },
-            "autoload": {
-                "classmap": [
-                    "CodeSniffer.php",
-                    "CodeSniffer/CLI.php",
-                    "CodeSniffer/Exception.php",
-                    "CodeSniffer/File.php",
-                    "CodeSniffer/Fixer.php",
-                    "CodeSniffer/Report.php",
-                    "CodeSniffer/Reporting.php",
-                    "CodeSniffer/Sniff.php",
-                    "CodeSniffer/Tokens.php",
-                    "CodeSniffer/Reports/",
-                    "CodeSniffer/Tokenizers/",
-                    "CodeSniffer/DocGenerators/",
-                    "CodeSniffer/Standards/AbstractPatternSniff.php",
-                    "CodeSniffer/Standards/AbstractScopeSniff.php",
-                    "CodeSniffer/Standards/AbstractVariableSniff.php",
-                    "CodeSniffer/Standards/IncorrectPatternException.php",
-                    "CodeSniffer/Standards/Generic/Sniffs/",
-                    "CodeSniffer/Standards/MySource/Sniffs/",
-                    "CodeSniffer/Standards/PEAR/Sniffs/",
-                    "CodeSniffer/Standards/PSR1/Sniffs/",
-                    "CodeSniffer/Standards/PSR2/Sniffs/",
-                    "CodeSniffer/Standards/Squiz/Sniffs/",
-                    "CodeSniffer/Standards/Zend/Sniffs/"
-                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2040,12 +2001,12 @@
                 }
             ],
             "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
-            "homepage": "http://www.squizlabs.com/php-codesniffer",
+            "homepage": "https://github.com/squizlabs/PHP_CodeSniffer",
             "keywords": [
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-11-07T22:53:13+00:00"
+            "time": "2019-10-28T04:36:32+00:00"
         }
     ],
     "aliases": [],
